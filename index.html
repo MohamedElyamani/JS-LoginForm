@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    
+    <section class="min-vh-100 d-flex justify-content-center align-items-center">
+          
+        <div class="formBox w-75 my-5 mx-auto bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="imgBox"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="formContain w-75 mx-auto  position-relative">
+                            <div class="title text-center py-3 my-4">
+                            <button class="btn btn-dark text-light" id="loginFormBtn">Login</button>
+                            <button class="btn btn-dark text-light" id="registerFormBtn">Register</button>
+                            </div>
+                            <!-- <form id="myCheckbox">
+                            </form> -->
+                            <div id="loginForm">
+                                <div class="input position-relative my-3">
+                                    <span><i class="far fa-user-circle"></i></span>
+                                    <input type="email" id="loginEmail" class="form-control" placeholder="Enter Email">
+                                    <div id="emailError" class="text-danger">Check your email or field may be blank</div>
+                                </div>
+                                <div class="input position-relative">
+                                    <span><i class="far fa-eye"></i></span>
+                                    <input type="password" id="loginPassword" class="form-control" placeholder="Enter Password">
+                                    <div id="passError" class="text-danger">Check your password or field may be blank</div>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100 my-2" id="loginBtn">Login</button>
+                            </div>
+
+
+                            <div id="registerForm">
+                                <div class="input position-relative my-3">
+                                    <span><i class="fas fa-user-tie"></i></span>
+                                    <input type="email" id="registerName" class="form-control" placeholder="Enter Full Name">
+                                </div>
+                                <div class="input position-relative my-3">
+                                    <span><i class="far fa-user-circle"></i></span>
+                                    <input type="email" id="registerEmail" class="form-control" placeholder="Enter Email">
+                                </div>
+                                <div class="input position-relative">
+                                    <span><i class="far fa-eye"></i></span>
+                                    <input type="password" id="registerPassword" class="form-control" placeholder="Enter Password">
+                                </div>
+                                <p id="check"></p>
+                                <button type="submit" class="btn btn-primary w-100 my-1" id="registerBtn">Register</button>
+                            </div>
+                        
+                        <p>Or You can login with</p>
+                        <div class="socialLogin d-flex justify-content-evenly my-4">
+                            <a href="#" class="btn btn-primary">Facebook</a>
+                            <a href="#" class="btn btn-danger">Google+</a>
+                            <a href="#" class="btn btn-info text-white">Twitter</a>
+                        </div>
+                        <div class="forgetPassword my-3">
+                            <a href="forgetPassword.html">Forget Your Password!!!</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

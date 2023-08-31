@@ -1,0 +1,69 @@
+section{
+    border: 1px solid #939290;
+    background: #dbdbdb3f;
+}
+.formBox{
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ccc;
+}
+.title button{
+    width: 40%;
+    margin: 2px;
+}
+.input span{
+    position: absolute;
+    top: 8px;
+    right: 0;
+    padding-right: 10px;
+}
+/* .input input::placeholder{
+    padding-left: 20px;
+} */
+p{
+    text-align: center;
+    font-weight: 600;
+}
+.imgBox{
+    background-image: url(../lock.jpeg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin-left: -12px;
+}
+
+#registerForm{
+    display: none;
+}
+
+#faild,
+#success,
+#emailError,
+#passError,
+#passwordChange{
+    text-align: center;
+    margin: 5px 0;
+    font-weight: 600;
+    background-color: rgba(255,0,0,0.1);
+    display: none;
+}
+#passwordChange{
+    background-color: rgba(0,255,0,0.1);
+}
+
+
+@media screen and (max-width: 768px){
+    .formBox{
+        background-image: url(../lock.jpeg);
+        background-size: cover;
+    }
+    .socialLogin a{
+        margin-right: 10px;
+    }
+    p{
+        color: #fff;
+    }
+    .title button{
+        width: 80%;
+    }
+}
